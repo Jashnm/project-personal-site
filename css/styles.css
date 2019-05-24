@@ -1,0 +1,126 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #defcfc;
+}
+.middle-container {
+  background-color: #EAF6F6;
+}
+.profile {
+  border-radius: 100%;
+  width: 35%;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 5px;
+  border-color: #d8eff0;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.62rem;
+  font-family: 'Satisfy', cursive;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #11999E;
+}
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+}
+
+.img-1 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.img-2 {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.java{
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+
+.kotlin {
+  width: 25%;
+  height: 25%;
+  float: right;
+  padding-left: 20px;
+  padding-top: 85px;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 25px;
+}
+.contact-me {
+  padding-bottom: 100px;
+}
+.btn{
+ display: inline-block;
+ border:1px solid #66BFBF;
+ color: #ffffff;
+ border-radius: 3px 3px 3px 3px;
+ -webkit-border-radius: 3px 3px 3px 3px;
+ -moz-border-radius: 3px 3px 3px 3px;
+ font-family: Verdana;
+ width: auto;
+ height: auto;
+ font-size: 17px;
+ padding: 11px 42px;
+ box-shadow: inset 0 1px 0 0 #fff6ce,inset 0 -1px 0 0 #66BFBF,inset 0 0 0 1px #66BFBF,0 2px 4px 0 #D4D4D4;
+ -moz-box-shadow: inset 0 1px 0 0 #fff6ce,inset 0 -1px 0 0 #66BFBF,inset 0 0 0 1px #66BFBF,0 2px 4px 0 #D4D4D4;
+ -webkit-box-shadow: inset 0 1px 0 0 #fff6ce,inset 0 -1px 0 0 #66BFBF,inset 0 0 0 1px #66BFBF,0 2px 4px 0 #D4D4D4;
+ text-shadow: 0 1px 0 #fff;
+ background-color: #3498db;
+}
+.btn:hover, .btn:active{
+ border:1px solid #defcfc;
+ color: #defcfc;
+ box-shadow: inset 0 1px 0 0 #defcfc,inset 0 -1px 0 0 #66BFBF,inset 0 0 0 1px #66BFBF;
+ -moz-box-shadow: inset 0 1px 0 0 #defcfc,inset 0 -1px 0 0 #66BFBF,inset 0 0 0 1px #66BFBF;
+ -webkit-box-shadow: inset 0 1px 0 0 #defcfc,inset 0 -1px 0 0 #66BFBF,inset 0 0 0 1px #66BFBF;
+ background-color: #3498db;
+}
+.footer-link {
+  padding: 15px;
+  font-size: 22px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 15px;
+}
